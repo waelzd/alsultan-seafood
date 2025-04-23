@@ -1,0 +1,117 @@
+// FreshFish.scss
+.fresh-fish {
+    background-color: $light-color;
+    position: relative;
+    overflow: hidden;
+  
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .section-title {
+      color: $primary-color;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+        width: 80px;
+        height: 3px;
+        background-color: $secondary-color;
+      }
+    }
+  
+    .lead {
+      color: $dark-color;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+  
+    .price-note {
+      color: $secondary-color;
+      font-style: italic;
+      font-weight: 500;
+    }
+  
+    .fish-images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      position: relative;
+      padding: 15px;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 10px;
+        pointer-events: none;
+      }
+    }
+  
+    .fish-img {
+      width: 100%;
+      max-width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      border: 3px solid white;
+  
+      &:hover {
+        transform: translateY(-5px) scale(1.03);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        z-index: 2;
+      }
+    }
+  
+    // Responsive adjustments
+    @media (max-width: 992px) {
+      .fish-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+  
+      .fish-img {
+        max-width: 300px;
+        height: 220px;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      text-align: center;
+  
+      .section-title {
+        &::after {
+          right: 50%;
+          transform: translateX(50%);
+        }
+      }
+  
+      .fish-images {
+        margin-top: 30px;
+      }
+    }
+  
+    @media (max-width: 576px) {
+      .fish-img {
+        height: 180px;
+      }
+  
+      .lead {
+        font-size: 1rem;
+      }
+    }
+  }

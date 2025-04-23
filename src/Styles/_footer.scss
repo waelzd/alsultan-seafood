@@ -1,0 +1,87 @@
+.footer {
+    background-color: $primary-color;
+    color: white;
+    padding: 4rem 0;
+
+    .icon {
+      color: $secondary-color;
+    }
+    
+    h3 {
+      color: $secondary-color;
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 2px;
+        background-color: $accent-color;
+      }
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    i {
+      margin-left: 10px;
+      color: $accent-color;
+    }
+    
+    .social-links {
+      margin-top: 20px;
+      
+      .whatsapp{
+        color:#25d366;
+      }
+      .instagram{
+        color:#c32aa3;
+      }
+      .facebook{
+        color:white;
+      }
+      a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        margin-left: 10px;
+        transition: all 0.3s;
+        
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
+      
+      .facebook:hover {
+        background-color: #1877f2;
+        color: white;
+      }
+      
+      .instagram:hover {
+        background-color: #c32aa3;
+        color: white;
+      }
+      
+      .whatsapp:hover {
+        background-color: #25d366;
+        color: white;
+      }
+    }
+    
+    .copyright {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }

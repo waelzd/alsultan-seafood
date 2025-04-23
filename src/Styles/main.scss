@@ -1,0 +1,38 @@
+// Import Bootstrap
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Variables
+$primary-color: #0d6e84;
+$secondary-color: #a43030;
+$light-color: #f8f9fa;
+$dark-color: #212529;
+$accent-color: #ffc107;
+
+// Import partials
+@import 'navbar';
+@import 'hero';
+@import 'menu';
+@import 'footer';
+@import 'responsive';
+@import 'scrolltotop';
+@import 'freshfish';
+
+
+
+// General Styles
+body {
+  font-family: 'Tajawal', sans-serif;
+  color: $dark-color;
+  line-height: 1.6;
+  direction: rtl;
+}
+
+// Import other SCSS partials
+@import 'navbar';
+@import 'hero';
+@import 'menu';
+@import 'footer';
+@import 'responsive';
+@import 'scrolltotop';
+@import 'freshfish';

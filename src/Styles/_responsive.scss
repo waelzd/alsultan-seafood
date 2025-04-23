@@ -1,0 +1,64 @@
+@media (max-width: 992px) {
+    .hero h1 {
+      font-size: 2.8rem;
+    }
+    
+    .hero .lead {
+      font-size: 1.2rem;
+    }
+    
+    .fish-images {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      height: 70vh;
+    }
+    
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+    }
+    
+    .footer .col-md-4 {
+      margin-bottom: 30px;
+      text-align: center;
+      
+      h3::after {
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero .lead {
+      font-size: 1rem;
+    }
+    
+    .btn-primary {
+      padding: 10px 20px;
+    }
+    
+    .card-overlay h3 {
+      font-size: 1.2rem;
+    }
+    
+    .menu-item {
+      padding: 15px;
+    }
+  }
