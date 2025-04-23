@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alsultan-seafood/static/css/main.fa0ce1f7.css",
+    "main.js": "/alsultan-seafood/static/js/main.919dab4e.js",
+    "static/media/shrumps4.jpg": "/alsultan-seafood/static/media/shrumps4.1636acbdff1d04bf89b0.jpg",
+    "static/media/fish5.jpg": "/alsultan-seafood/static/media/fish5.2aefdb8ea2fe47813ded.jpg",
+    "static/media/fish1.jpg": "/alsultan-seafood/static/media/fish1.da96dbca2a2fb99e47c8.jpg",
+    "static/media/sandwich1.jpg": "/alsultan-seafood/static/media/sandwich1.4145e50da237d7eb4d2f.jpg",
+    "static/media/circles.jpg": "/alsultan-seafood/static/media/circles.c11770bb9b725b4a9834.jpg",
+    "static/media/logo.jpg": "/alsultan-seafood/static/media/logo.554bbfe5cbf5bb04d615.jpg",
+    "static/media/softdrinks.jpg": "/alsultan-seafood/static/media/softdrinks.bc371739fccf765c093f.jpg",
+    "static/media/seafood-wallpaper1.jpg": "/alsultan-seafood/static/media/seafood-wallpaper1.f6499d11f46877a9c66a.jpg",
+    "index.html": "/alsultan-seafood/index.html",
+    "main.fa0ce1f7.css.map": "/alsultan-seafood/static/css/main.fa0ce1f7.css.map",
+    "main.919dab4e.js.map": "/alsultan-seafood/static/js/main.919dab4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa0ce1f7.css",
+    "static/js/main.919dab4e.js"
+  ]
+}
