@@ -6,15 +6,15 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h3>معلومات التواصل</h3>
-            <p><FaMapMarkerAlt className="icon"/> الجناح - نزلة السلطان ابراهيم</p>
-            <p><FaPhone className="icon"/> 71/246411 - 70/833448</p>
+            <h3>معلومات للتواصل</h3>
+            <p><FaMapMarkerAlt className="icon"/> الجناح - نزلة السلطان ابراهيم - الطريق البحرية</p>
+            <p><FaPhone className="icon"/> 71/246411</p>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4">
             <h3 className="workshift">مواعيد العمل</h3>
-            <p>يومياً من 10 صباحاً حتى 10 مساءاً</p>
+            <p>يومياً من 10 صباحاً حتى 10 مساءاً ما عدا الاثنين</p>
           </div>
-          <div className="col-md-4 text-end">
+          <div className="col-md-4">
             <h3>تابعنا</h3>
             <div className="social-links">
               <a href="#" className="facebook"><FaFacebookF /></a>

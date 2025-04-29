@@ -19,9 +19,9 @@ const MenuCategories = () => {
       image: plateImg
     },
     {
-      id: 'appetizers',
-      title: 'مقبلات',
-      enTitle: 'Appetizers',
+      id: 'smallplates',
+      title: 'صحن صغير',
+      enTitle: 'Small Plates',
       image: appetizerImg
     },
     {

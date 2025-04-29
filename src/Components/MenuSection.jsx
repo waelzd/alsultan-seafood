@@ -15,7 +15,7 @@ const MenuSection = ({ id, title, items, bgLight = false }) => {
                 <div className="menu-item">
                   <h3>{item.name}</h3>
                   {item.description && <p className="description">{item.description}</p>}
-                  <p className="price">{item.price} ل.ل</p>
+                  <p className="price">{item.price} $</p>
                 </div>
               </div>
             ))}
