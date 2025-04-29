@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="col-md-4">
             <h3>تابعنا</h3>
             <div className="social-links">
-              <a href="#" className="facebook"><FaFacebookF /></a>
+              <a href="https://www.facebook.com/alsultan_seafood" className="facebook"><FaFacebookF /></a>
               <a href="https://www.instagram.com/alsultan_seafood" className="instagram"><FaInstagram /></a>
               <a href="https://wa.me/71246411" className="whatsapp"><FaWhatsapp /></a>
             </div>
