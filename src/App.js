@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/alsultan-seafood" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
       </div>
