@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alsultan-seafood/static/css/main.9a75937a.css",
-    "main.js": "/alsultan-seafood/static/js/main.45a057f9.js",
+    "main.js": "/alsultan-seafood/static/js/main.d1291b59.js",
     "static/media/shrumps4.jpg": "/alsultan-seafood/static/media/shrumps4.1636acbdff1d04bf89b0.jpg",
     "static/media/fish5.jpg": "/alsultan-seafood/static/media/fish5.2aefdb8ea2fe47813ded.jpg",
     "static/media/fish1.jpg": "/alsultan-seafood/static/media/fish1.da96dbca2a2fb99e47c8.jpg",
@@ -12,10 +12,10 @@
     "static/media/seafood-wallpaper1.jpg": "/alsultan-seafood/static/media/seafood-wallpaper1.f6499d11f46877a9c66a.jpg",
     "index.html": "/alsultan-seafood/index.html",
     "main.9a75937a.css.map": "/alsultan-seafood/static/css/main.9a75937a.css.map",
-    "main.45a057f9.js.map": "/alsultan-seafood/static/js/main.45a057f9.js.map"
+    "main.d1291b59.js.map": "/alsultan-seafood/static/js/main.d1291b59.js.map"
   },
   "entrypoints": [
     "static/css/main.9a75937a.css",
-    "static/js/main.45a057f9.js"
+    "static/js/main.d1291b59.js"
   ]
 }
